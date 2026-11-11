@@ -21,12 +21,9 @@
 #qr-proposal .qr-intro { max-width:34ch; color:#ece6f6; margin:23px 0 24px; font-size:clamp(16px,2vw,19px); }
 #qr-proposal .qr-hero .qr-btn { color:#201337; background:#e0ceff; }
 #qr-proposal .qr-hero .qr-btn:hover { background:#f0e4ff; }
-#qr-proposal .qr-demo { position:relative; margin:0; display:grid; justify-items:center; gap:9px; }
-#qr-proposal .qr-phone { position:relative; width:min(100%,276px); padding:7px; border-radius:27px; background:#100d1d; border:1px solid #8d7aab; box-shadow:0 24px 60px #110d26b3,0 0 60px #ab87fa44; }
+#qr-proposal .qr-demo { position:relative; margin:0; display:grid; justify-items:center; }
+#qr-proposal .qr-phone { position:relative; width:min(100%,276px); padding:7px; border-radius:27px; background:#100d1d; border:1px solid #8d7aab; box-shadow:0 24px 60px #110d26b3,0 0 60px #ab87fa44; cursor:pointer; }
 #qr-proposal video { display:block; background:#413e48; width:100%; aspect-ratio:480/814; object-fit:cover; border-radius:20px; }
-#qr-proposal .qr-demo figcaption { display:flex; align-items:center; justify-content:center; gap:9px; flex-wrap:wrap; color:#eee6fc; font-size:13px; }
-#qr-proposal .qr-video-control { color:#fff; border:1px solid #aa96d0; padding:5px 10px; min-height:36px; background:#221833; border-radius:7px; font:inherit; }
-#qr-proposal .qr-video-control:hover { background:#39285a; }
 #qr-proposal details { margin-top:18px; color:var(--muted); }
 #qr-proposal summary { color:var(--accent); font-weight:600; padding-block:7px; }
 #qr-proposal details p { margin:7px 0; max-width:65ch; }

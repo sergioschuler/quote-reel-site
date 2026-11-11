@@ -1,10 +1,10 @@
 {
   const page = document.getElementById('qr-proposal');
   const video = page.querySelector('video');
-  const playback = page.querySelector('.qr-video-control');
+  const playback = page.querySelector('.qr-phone');
   const motion = matchMedia('(prefers-reduced-motion: reduce)');
   function syncPlayback() {
-    playback.textContent = video.paused ? 'Play demo' : 'Pause demo';
+    playback.setAttribute('aria-label', video.paused ? 'Play Quote Reel demo' : 'Pause Quote Reel demo');
   }
   function playDemo() {
     video.play().catch(syncPlayback);
