@@ -27,15 +27,6 @@
 #qr-proposal .qr-demo figcaption { display:flex; align-items:center; justify-content:center; gap:9px; flex-wrap:wrap; color:#eee6fc; font-size:13px; }
 #qr-proposal .qr-video-control { color:#fff; border:1px solid #aa96d0; padding:5px 10px; min-height:36px; background:#221833; border-radius:7px; font:inherit; }
 #qr-proposal .qr-video-control:hover { background:#39285a; }
-#qr-proposal .qr-section { padding-block:40px; }
-#qr-proposal .qr-section h2 { font:400 clamp(36px,5vw,58px)/1 'Instrument Serif',Georgia,serif; margin:0 0 12px; color:var(--ink); }
-#qr-proposal .qr-section > p { color:var(--muted); margin:0 0 19px; max-width:57ch; }
-#qr-proposal .qr-steps { display:grid; grid-template-columns:1fr 1fr; list-style:none; gap:14px; padding:0; margin:22px 0 15px; }
-#qr-proposal .qr-step { background:#fff; border:1px solid var(--edge); border-radius:14px; padding:19px; display:flex; flex-direction:column; align-items:flex-start; gap:8px; }
-#qr-proposal .qr-step-label { color:var(--accent); font-size:12px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; }
-#qr-proposal .qr-step h3 { margin:0; font-size:19px; color:var(--ink); }
-#qr-proposal .qr-step p { margin:0; color:var(--muted); }
-#qr-proposal .qr-step .qr-btn { margin-top:auto; }
 #qr-proposal details { margin-top:18px; color:var(--muted); }
 #qr-proposal summary { color:var(--accent); font-weight:600; padding-block:7px; }
 #qr-proposal details p { margin:7px 0; max-width:65ch; }
@@ -45,7 +36,6 @@
   #qr-proposal .qr-hero-grid { grid-template-columns:1fr; padding-block:29px; gap:23px; text-align:center; }
   #qr-proposal .qr-intro { margin:13px auto 17px; }
   #qr-proposal .qr-phone { width:min(100%,235px); }
-  #qr-proposal .qr-steps { grid-template-columns:1fr; }
 }
 body { margin:0; }
 #qr-proposal .qr-info { padding-block:8px 24px; }
