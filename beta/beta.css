@@ -9,7 +9,7 @@
 #qr-proposal .beta-timeline li { position:relative; display:grid; justify-items:center; gap:6px; color:var(--muted); font-size:clamp(11px,2.2vw,14px); font-weight:600; }
 #qr-proposal .beta-timeline li + li::before { content:""; position:absolute; width:100%; right:50%; top:16px; height:2px; background:var(--edge); }
 #qr-proposal .beta-timeline li.is-complete::before, #qr-proposal .beta-timeline li[aria-current]::before { background:var(--accent); }
-#qr-proposal .beta-node { position:relative; display:grid; place-items:center; width:34px; height:34px; border-radius:50%; border:1px solid var(--edge); background:var(--paper); font-size:14px; }
+#qr-proposal .beta-node { position:relative; z-index:1; display:grid; place-items:center; width:34px; height:34px; border-radius:50%; border:1px solid var(--edge); background:var(--paper); font-size:14px; }
 #qr-proposal .beta-timeline [aria-current] { color:var(--accent); font-weight:700; }
 #qr-proposal .beta-timeline [aria-current] .beta-node { color:#fff; background:var(--accent); border-color:var(--accent); }
 #qr-proposal .beta-timeline .is-complete .beta-node { color:var(--accent); background:#eee7fc; border-color:var(--accent); }
